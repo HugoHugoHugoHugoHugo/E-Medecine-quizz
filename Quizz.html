@@ -1,0 +1,27 @@
+﻿<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Quizz</title>
+	</head>
+	<body>
+		<h1>
+			Voici mon quizz !
+		</h1>
+			<img src=".\img\QUIZZ.jpg" alt="Quizz !" height="176" width="204">
+			<br>
+			<label>NOM</label> : <input id="NOM" type="text" name="nom" />
+			<label>Prénom</label> : <input id="Prenom" type="text" name="prenom" /><br>
+			<br>
+			<label id="q1">Combien comptez-vous de bulles ?</label><br>
+			<input type="radio" name="Q1" value=-1 checked> Je ne sais pas<br>
+			<input type="radio" name="Q1" value=1> Une<br>
+			<input type="radio" name="Q1" value=3> Trois<br>
+			<input type="radio" name="Q1" value=5> Cinq<br>
+			<input type="radio" name="Q1" value=7> Sept<br>
+			<br>				
+			<button onclick="traitement_score()">Valider mes réponses</button>
+			<h1 id="score">Votre score...</h1>
+			<script src="mon_script.js"></script>
+	</body>
+</html>
