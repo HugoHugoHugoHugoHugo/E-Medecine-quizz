@@ -3,5 +3,5 @@ Un quizz sur l'e-medicine
 
 
 1. c'est quoi ?
-2. c'est feur
-3. e-sex
+2. Sur l'utilisation de quoi se base-t-elle ?
+3. 
