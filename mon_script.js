@@ -18,7 +18,7 @@ function traitement_score()
 			}
 			else
 			{
-				document.getElementById("q1").style.color="purple";
+				document.getElementById("q1").style.color="red";
 				document.getElementById("q1").style.fontWeight="bold";
 			}
 			alert(Rep_1[i].value);
@@ -26,6 +26,6 @@ function traitement_score()
 		}
 	}
 	
-	document.getElementById("score").style.color="blue";
+	document.getElementById("score").style.color="purple";
 	document.getElementById("score").innerHTML="Bonjour "+prenom+" "+nom+", votre score est de : "+score+" / 1";
 }
